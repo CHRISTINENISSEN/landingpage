@@ -1,0 +1,140 @@
+/* Generell styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 253, 253);
+}
+
+
+
+
+
+body {
+  font-size: 16px;
+}
+
+/* For mindre skjermer */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px; /* Reduser skriftstørrelsen for mindre skjermer */
+  }
+}
+
+/* For enda mindre skjermer */
+@media (max-width: 480px) {
+  body {
+    font-size: 12px; /* Enda mindre skriftstørrelse for små skjermer */
+  }
+}
+
+
+img {
+  width: 450px;
+  height: auto;
+  padding-top: 100px;
+  padding-left: 50px;
+
+ }
+
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(255, 255, 72);
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  border: radius 10px  black ;
+}
+
+#image-text-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image-text-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.image-text-container img {
+  max-width: 50%;
+  height: auto;
+  padding-top: 100px;
+  padding-left: 5opx;
+}
+
+.text-container {
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 100px;
+}
+
+.text-container h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.text-container p {
+  font-size: 20px;
+  color: #888;
+}
+
+.text-container p
+{
+  flex-wrap: wrap;
+} 
+
+
+
+
+
+.bilde5 {
+padding-bottom: 100px ;
+}
+
+img.image-container .bilde5 {
+padding-bottom: 40px;
+}
+
+footer {
+  background-color: rgb(214, 214, 214);
+  color: rgb(0, 0, 0);
+  text-align: left;
+  padding: 40px;
+  font-weight: 600;
+  font-style: poppins ;
+  
+}
+
+footer {
+  background-color: rgb(211, 211, 211);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.footer-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.instagram-logo {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+}
+
+.footer .copyright {
+  margin-top: 20px;
+}
+
+
+
+
+
