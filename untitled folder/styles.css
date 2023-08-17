@@ -19,7 +19,7 @@ body {
 /* For enda mindre skjermer */
 @media (max-width: 480px) {
   body {
-    font-size: 12px; /* Enda mindre skriftstørrelse for små skjermer */
+    font-size: 12px; 
   }
 }
 
@@ -32,7 +32,7 @@ img {
 
  }
 
-
+    
 .button {
   display: inline-block;
   padding: 10px 20px;
@@ -83,8 +83,6 @@ img {
 {
   flex-wrap: wrap;
 } 
-
-
 
 
 
