@@ -8,9 +8,6 @@ body {
 
 
 
-body {
-  font-size: 16px;
-}
 
 /* For mindre skjermer */
 @media (max-width: 768px) {
